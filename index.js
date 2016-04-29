@@ -47,6 +47,7 @@ module.exports.component = {
 	 */
 	update: function () {
 		this.filterEscapeUrl(); //for escaping colons, semicolons, etc
+		this.draw.update();
 		this.draw.render();
 	},
 
